@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-size: 1.07em;
+}
+
+body{
+	font-family: arial, "sans serif";
+	background:	linear-gradient(155deg, #000000, #1C1C1C);
+}
+#frase::before{
+	content: "→";
+	position: relative;
+	left: -10px;
+	color: white;
+	animation: seta 0.5s ease-in 0s infinite alternate; 
+
+}
+#frase{
+	height: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 20px;
+	font-size: 1.455em;
+}
+
+.materia_img{
+	max-width: 70%;
+}
+
+/*animação *********************************************/
+@keyframes seta{
+	from{
+		left: -10px;
+	}
+
+	to{
+		left: -3px;
+	}
+}
+
+/**********************************************************/
+
+.lista_conteudo ul li a::before {
+	content: "→";
+	ri
+	position: relative;
+	text-align: center;
+	padding:10px;
+	color: rgba(0,0,0, 0.9);
+
+}
+.flex_materia h1{
+	text-shadow: 5px 10px  5px black;
+}
+.flex_materia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: white;
+	font-size: 1.9em;
+}
+
+/*cabeçalho*/
+
+.header span{
+	font-size: 1.9em;
+}
+.img_header img{
+	width: 80%;
+}
+.img_header{
+	width: 200px;
+}
+.header{
+	background: linear-gradient(-180deg, #08081f, #0505b7);
+	color: white;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px  15px #0505b7;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*conteudo do main*/
+.conteudo_princ{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-left: 10px;
+	margin-right: 10px;
+	grid-gap: 20px;
+	grid-template-areas:
+	"fisica quimica matematica biologia"
+	;
+
+}
+
+/*classe MATERIA PADRÃO*/
+.materia img{
+	min-width: 130px;
+	max-width: 100%;
+}
+
+.linha{
+	background:#0014ffde;
+	width: 50%;
+	height: 5px;
+	border-radius: 10px;
+
+}
+.materia{
+	background:linear-gradient(155deg, #363636, #696969) ;
+	border: 2px solid #FFFAFA;
+	border-radius: 20px;
+}
+
+.lista_conteudo ul li{
+	padding: 10px;
+	font-size: 1.008em;
+
+}
+.lista_conteudo a{
+	color: white;
+}
+/******************************************************/
+
+/*separa colunas por materia*/
+.fisica{
+	grid-area: fisica;
+}
+.quimica{
+	grid-area: quimica;
+}
+.matematica{
+	grid-area: matematica;
+}
+.biologia{
+	grid-area: biologia;
+}
+/**********************************************************/
+/*rodape*/
+.footer{
+	width: 100%;
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer span{
+	margin-top: 20px;
+}
+.progressBar progress{
+	width: 100%;
+}
+.progressBar{
+	max-width: 100px;
+	min-width: 50px;
+}
+.flex_rodape div + div{
+	margin-left: 20px;
+}
+
+.flex_rodape{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.img_footer img{
+	width: 100%;
+}
+.img_footer{
+	max-width: 100px;
+	min-width: 50px;
+}
+/************************* responsividade **************************************/
+@media (max-width: 1200px){
+	.conteudo_princ{
+		grid-template-areas:
+		"fisica fisica quimica quimica "
+		"matematica matematica biologia biologia"
+		;
+
+	}
+}
+
+@media (max-width: 760px){
+	.conteudo_princ{
+		grid-template-columns: 1fr;
+		grid-template-areas:
+		"fisica"
+		"quimica"
+		"matematica"
+		"biologia"
+		;
+
+	}
+
+}
+
+@media (max-width: 560px){
+	#frase{
+		font-size: 1em;
+	}
+	.flex_rodape{
+		flex-wrap: wrap;
+	}
+}
