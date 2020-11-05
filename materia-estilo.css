@@ -54,10 +54,17 @@ span{
 }
 
 
-
+.resumo_lista dt{
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
 .resumo_lista dd{
     margin-inline-start: 30px; /*informa a margin inicial do dd*/
 	line-height: 30px;
+}
+
+.resumo_lista ul li{
+	font-weight: normal;
 }
 
 .img-lista img{
@@ -131,17 +138,24 @@ h1{
 
 	.img-lista img{
 		max-width: 100%;
+		min-width: auto;
 	}
 	.img-lista{
 		max-width: 350px;
-		min-width: 320px;	
+		min-width: 200px;px;	
 	}
 
+	.resumo_lista ul li{
+		font-size: 0.8em;
+		font-weight: normal;
+		margin-inline-start:20px;
+	}
 	.resumo_lista dd{
 		font-size: 0.8em;
 		margin-inline-start: 15px;
 	}
-	.resumo_lista dt{
+	.resumo_lista dt, 
+	.paragrafo{
 		margin-inline-start: -15px;
 		font-size: 1.032em;
 	}
