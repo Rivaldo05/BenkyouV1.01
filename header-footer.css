@@ -62,6 +62,7 @@
 
 .progressBar progress{
 	height:20px;
+	border-radius: 20px;
 }
 
 .img_footer,
