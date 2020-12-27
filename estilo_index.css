@@ -13,6 +13,10 @@
 }
 
 body{
+	-webkit-background-color: white;
+	-moz-background-color: white;
+	-ms-background-color: white;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -36,6 +40,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-moz-color:black;
+	-webkit-color:black;
 	color: black;
 	padding: 20px;
 	font-size: 1.455em;
@@ -78,6 +84,8 @@ body{
 }
 
 h1 {
+	-webkit-color:white;
+	-moz-color:white;
 	color: white;
 	font-size: 1.9em;
 }
