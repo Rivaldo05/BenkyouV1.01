@@ -59,6 +59,11 @@
 .progressBar progress{
 	width: 100%;
 }
+
+.progressBar progress{
+	height:20px;
+}
+
 .img_footer,
 .progressBar{
 	max-width: 60px;
@@ -66,6 +71,10 @@
 }
 
 @media screen and (max-width:700px){
+	.img_header{
+	width: 120px;
+	}
+	
 	.img_header img{
 		width: 120px;
 	}
