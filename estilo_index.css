@@ -13,7 +13,6 @@
 }
 
 body{
-	-webkit-background-color: white;
 	-moz-background-color: white;
 	-ms-background-color: white;
 	-o-background-color: white;
@@ -31,7 +30,6 @@ body{
 	left: -10px;
 	-ms-color:black;
 	-moz-color:black;
-	-webkit-color:black;
 	color: black;
 	animation: seta 0.5s ease-in 0s infinite alternate; 
 
@@ -44,7 +42,6 @@ body{
 	align-items: center;
 	-ms-color:black;
 	-moz-color:black;
-	-webkit-color:black;
 	color: black;
 	padding: 20px;
 	font-size: 1.455em;
@@ -88,7 +85,6 @@ body{
 
 h1 {
 	-ms-color:white;
-	-webkit-color:red;
 	-moz-color:white;
 	color: white;
 	font-size: 1.9em;
@@ -130,25 +126,34 @@ h1 {
 }
 
 .linha{
+	-ms-background:#0014ffde;
+	-moz-background:#0014ffde;
 	background:#0014ffde;
 	width: 50%;
 	height: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
 	border-radius: 10px;
 
 }
 .materia{
+	-moz-border:2px solid black;
+	-ms-border:2px solid black;
 	border: 2px solid black;
 	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
 }
 
 .lista_conteudo ul li{
-	color: black;
 	padding: 10px;
 	font-size: 1.008em;
 
 }
 .lista_conteudo a{
-	-webkit-color: black; /*(Chrome, Safari, versões mais recentes do Opera.)*/
+	/*-webkit-color: black; /*(Chrome, Safari, versões mais recentes do Opera.)*/
 	-moz-color: black; /*firefox*/
 	-o-color: black; /*(Versões antigas do Opera)*/
 	-ms-color: black; /*internet explorer*/
@@ -159,7 +164,6 @@ h1 {
 /* class DESENVOLVIMENTO */
 
 .desenvolvimento {
-
 	color: white;
 	text-transform: uppercase;
 	font-size: 1.01em;
