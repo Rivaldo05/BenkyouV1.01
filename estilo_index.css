@@ -4,6 +4,8 @@
 	margin: 0px;
 	text-decoration: none;
 	list-style: none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-size: 1.07em;
 	font-family: arial, "sans serif";
@@ -22,6 +24,8 @@ body{
 	content: "→";
 	position: relative;
 	left: -10px;
+	-moz-color:black;
+	-webkit-color:black;
 	color: black;
 	animation: seta 0.5s ease-in 0s infinite alternate; 
 
@@ -78,27 +82,6 @@ h1 {
 	font-size: 1.9em;
 }
 
-/*cabeçalho*/
-
-.header span{
-	font-size: 1.9em;
-}
-.img_header img{
-	width: 80%;
-}
-.img_header{
-	width: 200px;
-}
-.header{
-	background: linear-gradient(45deg, #000000, #3c3636);
-	color: white;
-	width: 100%;
-	height: 200px;
-	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 /*conteudo do main*/
 .conteudo_princ{
@@ -152,8 +135,25 @@ h1 {
 
 }
 .lista_conteudo a{
+	-webkit-color:black; /*(Chrome, Safari, versões mais recentes do Opera.)*/
+	-moz-color:black; /*firefox*/
+	-o-color:black; /*(Versões antigas do Opera)*/
+	-ms-color:black; /*internet explorer*/
 	color: black;
 }
+
+/******************************************************/
+/* class DESENVOLVIMENTO */
+
+.desenvolvimento {
+
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.01em;
+
+}
+
+
 /******************************************************/
 
 /*separa colunas por materia*/
@@ -171,47 +171,6 @@ h1 {
 }
 /**********************************************************/
 /*rodape*/
-.footer{
-	background: linear-gradient(45deg, #000000, #3c3636);
-	width: 100%;
-	height: 100%;
-	color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-}
-
-.footer span{
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-}
-
-.flex_rodape div + div{
-	margin-left: 20px;
-}
-
-.flex_rodape{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.img_footer img{
-	border-radius: 30px;
-}
-
-.img_footer img,
-.progressBar progress{
-	width: 100%;
-}
-.img_footer,
-.progressBar{
-	max-width: 60px;
-	min-width: 50px;
-}
 /************************* responsividade **************************************/
 @media (max-width: 760px){
 	.conteudo_princ{
