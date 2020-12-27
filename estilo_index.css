@@ -16,6 +16,7 @@ body{
 	-webkit-background-color: white;
 	-moz-background-color: white;
 	-ms-background-color: white;
+	-o-background-color: white;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -28,6 +29,7 @@ body{
 	content: "→";
 	position: relative;
 	left: -10px;
+	-ms-color:black;
 	-moz-color:black;
 	-webkit-color:black;
 	color: black;
@@ -40,6 +42,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-ms-color:black;
 	-moz-color:black;
 	-webkit-color:black;
 	color: black;
@@ -84,7 +87,8 @@ body{
 }
 
 h1 {
-	-webkit-color:white;
+	-ms-color:white;
+	-webkit-color:red;
 	-moz-color:white;
 	color: white;
 	font-size: 1.9em;
@@ -138,15 +142,16 @@ h1 {
 }
 
 .lista_conteudo ul li{
+	color: black;
 	padding: 10px;
 	font-size: 1.008em;
 
 }
 .lista_conteudo a{
-	-webkit-color:black; /*(Chrome, Safari, versões mais recentes do Opera.)*/
-	-moz-color:black; /*firefox*/
-	-o-color:black; /*(Versões antigas do Opera)*/
-	-ms-color:black; /*internet explorer*/
+	-webkit-color: black; /*(Chrome, Safari, versões mais recentes do Opera.)*/
+	-moz-color: black; /*firefox*/
+	-o-color: black; /*(Versões antigas do Opera)*/
+	-ms-color: black; /*internet explorer*/
 	color: black;
 }
 
