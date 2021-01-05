@@ -87,11 +87,14 @@ table, th, td{
 	border-collapse: collapse;
 	font-weight: normal;
 	font-size: 20px;
-	min-width: 60%;
+	min-width: 50%;
 	max-width: 400px;
 	text-align: center;
 	margin-bottom: 10px;
+	padding: 5px;
 }
+
+
 
 /********************************************/
 @media screen and (max-width: 700px){
