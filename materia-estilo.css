@@ -13,8 +13,9 @@
 .conteiner_conteudo section{
 	margin: 20px;
 }
+
 .conteiner_conteudo{
-	background-image: url('imagens/folha fundo img.jpg');
+	background-image: url('imagens/folha fundo img20.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: linear-gradient(-180deg, #b99c73, #e2d2ae);
@@ -35,22 +36,28 @@ span{
 }
 
 
-.resumo_lista dt{
+.resumo_lista{
 	margin-bottom: 10px;
-	margin-top: 40px;
+	margin-top: 30px;
 }
-.resumo_lista dd{
-    margin-inline-start: 30px; /*informa a margin inicial do dd*/
+.resumo_lista{
+    margin-inline-start: 10px; /*informa a margin inicial do dd*/
 	line-height: 30px;
 }
 
-.resumo_lista ul li{
+.resumo_listap {
 	font-weight: normal;
-	margin-inline-start: -40px;
-	font-size: 0.8em;
+	margin-inline-start: 40px;
+	font-size: 1.05em;
 	margin-top: 10px;
 
 }
+
+ .resumo_listap li {
+	margin-inline-start: -40px;
+	margin-top: 10px;
+	font-size: 1em;
+ }
 
 .img-lista img{
 	width: 100%;
@@ -66,6 +73,10 @@ h1{
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
+}
+
+sup {
+	font-size: 0.5em;
 }
 
 /********************************************/
@@ -103,17 +114,16 @@ table, th, td{
 		min-width: 200px;px;	
 	}
 
-	.resumo_lista ul li{
-		font-size: 0.9em;
+	.resumo_listap li{
+		font-size: 1em;
 		font-weight: normal;
 		margin-inline-start:-40px;
 	}
-	.resumo_lista dd{
+	.resumo_listap {
 		font-size: 0.9em;
 		margin-inline-start: 15px;
 	}
-	.resumo_lista dt, 
-	.paragrafo{
+	.resumo_lista{
 		margin-inline-start: -15px;
 		font-size: 1.032em;
 	}
