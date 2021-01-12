@@ -35,39 +35,57 @@ span{
 	font-size: 1.8em;
 }
 
-
 .resumo_lista{
+    margin-inline-start: 10px; /*informa a margin inicial da frase*/
+	line-height: 30px;
 	margin-bottom: 10px;
 	margin-top: 30px;
-}
-.resumo_lista{
-    margin-inline-start: 10px; /*informa a margin inicial do dd*/
-	line-height: 30px;
 }
 
 .resumo_listap {
 	font-weight: normal;
-	margin-inline-start: 40px;
+	line-height: 30px;
+	margin-inline-start: 30px;
 	font-size: 1.05em;
 	margin-top: 10px;
 
 }
 
- .resumo_listap li {
-	margin-inline-start: -40px;
+.resumo_lista_ord{
+	font-weight: normal;
+	line-height: 30px;
+	margin-inline-start: 50px;
 	margin-top: 10px;
-	font-size: 1em;
- }
+	font-size: 1.05em;
+}
 
-.img-lista img{
+figcaption{
+	font-size: 0.9em;
+	color: darkgray;
+
+}
+
+/**** IMAGENS *******/
+
+.img-lista img,
+.img-listap img,
+.img-listam img{
 	width: 100%;
 }
 
-
-.img-lista{
-	max-width: 400px;	
+.img-listap{
+	max-width: 200px;	
 }
 
+.img-listam{
+	max-width: 300px;	
+}
+
+.img-lista{
+	max-width: 500px;	
+}
+
+/******************************/
 h1{
 	font-size: 1.7em;
 	margin-top: 40px;
@@ -78,6 +96,8 @@ h1{
 sup {
 	font-size: 0.5em;
 }
+
+
 
 /********************************************/
  /*TABLEA DE QUIMICA*/
@@ -108,24 +128,33 @@ table, th, td{
 		font-size: 1.3em;
 	}
 
-	.img-lista img{
+	.img-lista img, 
+	.img-listam img, 
+	.img-listap img{
 		max-width: 100%;
 		min-width: auto;
 	}
-	.img-lista{
+	.img-lista, .img-listam {
 		max-width: 350px;
-		min-width: 200px;px;	
+		min-width: 200px;	
 	}
 
-	.resumo_listap li{
-		font-size: 1em;
-		font-weight: normal;
-		margin-inline-start:-40px;
+	.img-listap{
+		max-width: 200px;
+		min-width: 200px;
 	}
+
 	.resumo_listap {
 		font-size: 0.9em;
 		margin-inline-start: 15px;
 	}
+	
+	.resumo_lista_ord{
+		font-size: 0.9em;
+		margin-inline-start: 30px;
+
+	}
+
 	.resumo_lista{
 		margin-inline-start: -15px;
 		font-size: 1.032em;
