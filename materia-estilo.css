@@ -138,11 +138,12 @@ table, th, td{
 		min-width: 200px;
 	}
 
+
 	.resumo_listap {
 		font-size: 0.9em;
 		margin-inline-start: 15px;
 	}
-	
+
 
 	.resumo_lista{
 		margin-inline-start: -15px;
