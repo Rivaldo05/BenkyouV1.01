@@ -38,7 +38,7 @@ span{
 .resumo_lista{
     margin-inline-start: 10px; /*informa a margin inicial da frase*/
 	line-height: 30px;
-
+	
 	margin-top: 20px;
 }
 
@@ -49,6 +49,7 @@ span{
 	margin-top: 10px;
 
 }
+
 
 .resumo_listap li{
 	margin-inline-start:-40px;	
