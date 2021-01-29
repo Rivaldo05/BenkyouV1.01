@@ -70,30 +70,30 @@
 	justify-content: center;
 }
 
+
 .img_footer img{
-	border-radius: 30px;
+    border-radius: 10px;
+    width: 100%;
+	box-shadow: inset 13px 5px 5px 0px #f7efef;
 }
 
-.img_footer img,
-.progressBar progress{
-	width: 100%;
-}
 
-.progressBar progress{
-	height:20px;
-}
-
-.img_footer,
-.progressBar{
-	max-width: 60px;
+.img_footer{
+	max-width: 50px;
 	min-width: 50px;
 }
+
+
 
 @media screen and (max-width:700px){
 	.img_header{
 	width: 280px;
 	}
-	
+
+	.flex_rodape{
+		flex-wrap: wrap;
+	}
+
 	.img_header img{
 		width: 100%;
 	}

@@ -186,8 +186,7 @@ h1 {
 .biologia{
 	grid-area: biologia;
 }
-/**********************************************************/
-/*rodape*/
+
 /************************* responsividade **************************************/
 @media (max-width: 760px){
 	.conteudo_princ{
@@ -209,10 +208,7 @@ h1 {
 	#frase{
 		font-size: 1em;
 	}
-	.flex_rodape{
-		flex-wrap: wrap;
-	}
-
+	
 	.conteudo_princ{
 		max-width: 100%;
 		min-width: 100%;
