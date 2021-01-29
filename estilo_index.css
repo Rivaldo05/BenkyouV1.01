@@ -13,10 +13,10 @@
 }
 
 body{
-	-moz-background-color: white;
-	-ms-background-color: white;
-	-o-background-color: white;
-	background-color: white;
+	-moz-background-color: #e6e1e187;
+	-ms-background-color: #e6e1e187;
+	-o-background-color: #e6e1e187;
+	background-color: #e6e1e187;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
