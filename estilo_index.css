@@ -25,7 +25,7 @@ body{
 
 
 #frase::before{
-	content: "→";
+	content: "➔";
 	position: relative;
 	left: -10px;
 	-ms-color:black;
