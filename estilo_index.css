@@ -65,7 +65,7 @@ body{
 /**********************************************************/
 
 .lista_conteudo ul li a::before {
-	content: "🡆";
+	content: "➔";
 	margin-right: 10px;
 	position: relative;
 	text-align: center;
